@@ -2310,3 +2310,38 @@ input, select, textarea {
 			}
 
 		}
+
+.prof-pic {
+	width:350px;
+	border-radius:20px;
+	margin:0px 30px;
+}
+
+.logo-header {
+	height:50px;
+	margin-left:50px;
+}
+
+#about-me-description {
+	width:600px;
+	max-height:400px;
+	overflow-y:scroll;
+}
+
+#about-me-description p {
+	font-size:14px;
+}
+
+.content.box.style2 {
+	border-radius:10px
+}
+
+#what-i-do {
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+
+}
+
+.gallery img {
+	border-radius:10px;
+}
