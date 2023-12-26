@@ -2244,17 +2244,18 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/intro.jpg");
+		/* background: url("images/overlay.png"), url("../../images/test-intro.jpg"); */
+		background: url("images/overlay.png"), url("../../images/torrey-pines.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
+		background-position: top center, bottom left;
 		background-repeat: repeat, no-repeat;
 	}
 
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		background: url("images/overlay.png"), url("../../images/surf.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2263,7 +2264,7 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background: url("images/overlay.png"), url("../../images/sandiego.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2318,8 +2319,9 @@ input, select, textarea {
 }
 
 .logo-header {
-	height:50px;
-	margin-left:50px;
+	height:40px;
+	margin-left:20px;
+	margin-top:10px;
 }
 
 #about-me-description {
@@ -2329,7 +2331,7 @@ input, select, textarea {
 }
 
 #about-me-description p {
-	font-size:14px;
+	font-size:16px;
 }
 
 .content.box.style2 {
@@ -2344,4 +2346,79 @@ input, select, textarea {
 
 .gallery img {
 	border-radius:10px;
+}
+
+.gallery p {
+	text-align:justify;
+}
+
+.gallery>article {
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:20px;
+}
+
+
+.gallery button:hover {
+	background-color:#29741d;
+}
+
+#header li {
+	color: #29741d
+}
+
+#header {
+	background-color:white;
+}
+
+#intro h3, #intro h2, #intro a {
+	color:#9dcd5a;
+}
+
+#intro img {
+	margin:0px auto;
+	width:500px;
+	display:block;
+}
+p,h2 {
+	color:#29741d;
+}
+
+.about-me-words {
+
+	text-shadow:1px 1px 1.5px #29741d;
+	font-size:32px;
+	text-align:center;
+	border-right:1px solid #39454b;
+	padding-right:30px;
+}
+
+#about-me-description-words  {
+	position:relative;
+	top:-100px;
+	display:flex;
+	gap:10px;
+
+}
+#about-icons {
+	margin-top:-70px;
+	display:flex;
+	gap:50px;
+	justify-content: center;
+}
+
+#last-word {
+	border-right:none;
+}
+#middle-word {
+	padding-left:20px;
+}
+
+.down {
+	color:#29741d
+}
+
+#stats {
+	width:320px;
+	margin-right:100px;
 }

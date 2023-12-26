@@ -5,14 +5,15 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/thumbs/icon.png" />
+		<link rel="icon" href="images/14.png" />
+		<script src="https://kit.fontawesome.com/76016f54cd.js" crossorigin="anonymous"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<header id="header">
-				<img src='images/fulls/logo.png' class="logo-header"></img>
+				<img src='images/sophie.png' class="logo-header"></img>
 				<nav>
 					<ul>
 						<li><a href="#intro">Intro</a></li>
@@ -28,9 +29,20 @@
 			<section id="intro" class="main style1 dark fullscreen">
 				<div class="content">
 					<header>
-						<h3>Hi! My name is </h3>
-						<h2>Sophie Yang</h2>
-						<h3>San Diego, CA</h3>
+						<!-- <h3>Hi! My name is </h3> -->
+						<!-- <h2>Sophie Yang</h2> -->
+						<img src='./images/header.png' alt="Sophie Yang">
+						<!-- <h3>based in San Diego, CA</h3> -->
+						<div id="about-me-description-words">
+						<h3 class="about-me-words">Software Engineer  </h3>
+						<h3 class="about-me-words" id="middle-word">Adventure Enthusiast </h3>
+						<h3 class="about-me-words" id="last-word">Creative Thinker </h3>
+						</div>
+						<div id="about-icons">
+						<a href="https://github.com/sophie97yang"><i class="fa-brands fa-github fa-2xl"></i></a>
+						<a href="https://www.linkedin.com/in/sophie-yang-bb9758156/"><i class="fa-brands fa-linkedin-in fa-2xl"></i></a>
+						<a href="mailto: sophie97yang@gmail.com"><i class="fa-regular fa-envelope fa-2xl"></i></a>
+						</div>
 					</header>
 					<footer>
 						<a href="#one" class="button style2 down">More</a>
@@ -40,13 +52,11 @@
 
 		<!-- One -->
 			<section id="one" class="main style2 right dark fullscreen">
+					<img src="./images/stats.png" id="stats">
 				<div class="content box style2" id="what-i-do">
 					<header>
-						<h2>What I Do</h2>
+						<h2> What I've Done </h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -79,10 +89,15 @@
 								<h3>SplitTrip</h3>
 							</article>
 							<article class="from-right">
-								<!-- NOTHING HERE -->
+								<p>SplitTrip is an innovative travel platform seamlessly blending TripAdvisor's exploration and planning features with Splitwise's expense management capabilities. Offering a one-stop solution, users can effortlessly discover, plan, and book their trips while efficiently managing travel expenses in a stress and hassle-free environment.</p>
+								<button onclick="window.open('https://github.com/sophie97yang/SplitTrip','_blank')"><i class="fa-solid fa-code"></i> Code</button>
+								<button onclick="window.open('https://split-trip.onrender.com','_blank')" ><i class="fa-solid fa-globe"></i> Live</button>
+
 							</article>
 							<article class="from-left">
-								<!-- NOTHING HERE -->
+								<p>Parmazon Prime is a delectable twist on the shopping experience, bringing the charm of Amazon to the world of artisanal cheeses. This specialized platform offers a curated selection of the finest cheeses, allowing users to easily explore, order, and savor an array of gourmet options with the same ease and reliability as their favorite online marketplace.</p>
+								<button onclick="window.open('https://github.com/sophie97yang/Parmazon-Prime','_blank')"><i class="fa-solid fa-code"></i> Code</button>
+								<button onclick="window.open('https://parmazon-prime.onrender.com/','_blank')"><i class="fa-solid fa-globe"></i> Live</button>
 							</article>
 							<article class="from-right">
 								<a href="" class="image fit"><img src="https://media.licdn.com/dms/image/D562DAQGWH1YsKbvOAQ/profile-treasury-image-shrink_1920_1920/0/1703066686213?e=1703689200&v=beta&t=32JLDUKwsHCyQBBI5PAA6osyQis0qlqQpMGH-VK9toI" title="Parmazon Prime" alt="" /></a>
@@ -93,7 +108,9 @@
 								<h3>Meet U</h3>
 							</article>
 							<article class="from-right">
-								<!-- NOTHING HERE -->
+								<p>Meet U, drawing inspiration from MeetUp, is a event-based social networking platform designed to connect like-minded individuals for a variety of events and activities. From hobbyist gatherings to professional networking, Meet U brings people together, creating meaningful connections and fostering shared experience that make every encounter a delightful "Nice to MEET U!"</p>
+								<button onclick="window.open('https://github.com/sophie97yang/MeetYou','_blank')"><i class="fa-solid fa-code"></i> Code</button>
+								<button onclick="window.open('https://meet-you.onrender.com','_blank')"><i class="fa-solid fa-globe"></i> Live</button>
 							</article>
 						</div>
 
@@ -104,8 +121,12 @@
 			<section id="contact" class="main style3 secondary">
 				<div class="content">
 					<header>
-						<h2>Say Hello.</h2>
-						<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.</p>
+						<h2>Get in touch!</h2>
+						<div id="about-icons-contact">
+							<a href="https://github.com/sophie97yang"><i class="fa-brands fa-github fa-2xl"></i></a>
+							<a href="https://www.linkedin.com/in/sophie-yang-bb9758156/"><i class="fa-brands fa-linkedin-in fa-2xl"></i></a>
+							<a href="mailto: sophie97yang@gmail.com"><i class="fa-regular fa-envelope fa-2xl"></i></a>
+							</div>
 					</header>
 					<div class="box">
 						<form method="post" action="#">
@@ -126,19 +147,19 @@
 			<footer id="footer">
 
 				<!-- Icons -->
-					<ul class="icons">
+					<!-- <ul class="icons">
 						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 						<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-					</ul>
+					</ul> -->
 
 				<!-- Menu -->
-					<ul class="menu">
+					<!-- <ul class="menu">
 						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-					</ul>
+					</ul> -->
 
 			</footer>
 
