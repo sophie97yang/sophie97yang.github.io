@@ -2422,3 +2422,27 @@ p,h2 {
 	width:320px;
 	margin-right:100px;
 }
+
+.tech-stack>svg {
+	width:45px;
+}
+
+.in-green {
+	color:#29741d;
+	font-weight:bold;
+}
+
+#what-i-do h3 {
+	font-size:25px;
+	margin-bottom:15px;
+}
+#what-i-do {
+	padding-top:1.5em;
+	padding-bottom:2.5em;
+	max-height:450px;
+	overflow-y:scroll;
+}
+
+#education-about >h3 {
+	margin-top:15px;
+}
