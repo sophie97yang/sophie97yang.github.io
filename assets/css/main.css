@@ -2447,3 +2447,10 @@ p,h2 {
 #education-about >h3 {
 	margin-top:15px;
 }
+
+#about-icons-contact {
+	display:flex;
+	gap:30px;
+	justify-content: center;
+	margin-top:30px;
+}
